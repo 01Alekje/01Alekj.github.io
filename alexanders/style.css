@@ -5,7 +5,7 @@ body {
 
 .grid-container {
     width: 100%;
-    max-width: 2000px;
+    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -14,11 +14,11 @@ body {
     "aside-left aside-left main aside-right aside-right"
     "aside-left aside-left main aside-right aside-right"
     "aside-left aside-left . aside-right aside-right";
-    grid-template-rows: 200px 300px 200px 190px; 
+    grid-template-rows: 110px 130px 160px 120px;
 }
 
 .aside-left {
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(235, 183, 72, 0.8);
     grid-area: aside-left;
     padding: 0 10px;
     border: 3px solid salmon;
@@ -32,11 +32,10 @@ body {
     "warp2 warp2 warp2"
     "warp3 warp3 warp3"
     "warp4 warp4 warp4";
-    grid-template-rows: 50px 200px 200px 200px 200px;
 }
 
 .eggs {
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(235, 183, 72, 0.8);
     grid-area: header;
     display: flex;
     justify-content: center;
@@ -47,7 +46,7 @@ body {
 }
 
 #scorecounter {
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(235, 183, 72, 0.8);
     grid-area: scorecounter;
     display: flex;
     justify-content: center;
@@ -58,7 +57,7 @@ body {
 }
 
 .chickens {
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(235, 183, 72, 0.8);
     grid-area: aside-right;
     padding: 0 10px;
     border: 3px solid salmon;
@@ -69,7 +68,7 @@ body {
     grid-template-areas:
     ". h1-container ."
     "inc inc inc";
-    grid-template-rows: 50px 800px;
+    grid-template-rows: 75px 440px;
 }
 
 .h1-container {
@@ -92,7 +91,7 @@ main {
     "header"
     "scorecounter"
     "clicker";
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 125px 115px 300px;
 }
 
 .clicker {
@@ -103,7 +102,7 @@ main {
 }
 
 .clicker:hover {
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(238, 179, 52, 0.8);
     border: 3px solid salmon;
     border-radius: 10px;
 }
@@ -114,7 +113,7 @@ main {
 
 button {
     grid-area: inc;
-    background: rgba(236, 189, 89, 0.7);
+    background: rgba(238, 179, 52, 0.8);
     border: 3px solid salmon;
     border-radius: 20px;
     margin: 4%;
@@ -128,7 +127,7 @@ h1 {
 }
 
 button:hover {
-    margin: 4.5%;
+    background: rgb(241, 167, 54);
 }
 
 #warp1 {
