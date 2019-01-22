@@ -1,0 +1,40 @@
+body {
+    font-family: monospace;
+    background: orange;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    ". . . . ."
+    ". . flex1 . ."
+    ". . . . ."
+    ". . flex2 . .";
+    grid-template-rows: 50px 150px 150px 150px;
+}
+
+.flex-container1 {
+    grid-area: flex1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    background: orangered;
+    border: 3px solid white;
+    border-radius: 100000000px;
+    text-decoration: none;
+    color: white;
+    padding: 84px 80px;
+    transition: 300ms ease;
+}
+
+a:hover {
+    padding: 88px 84px;
+}
+
+.flex-container2 {
+    grid-area: flex2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
