@@ -1,0 +1,347 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(92, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all-grid{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "hero upgrades";
+    grid-template-rows: 100vh;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-top: 20px;
+}
+
+.clicker{
+    display: block;
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    margin-top: 0;
+    margin-left: 150px;
+}
+
+.clicker:active{
+    background-size: cover;
+    transform: translateY(3px);
+}
+
+.hero{
+    grid-area: hero;
+    background: rgb(182, 20, 20);
+    border: black solid 8px;
+    width: 700px;
+    border-radius: 30px;
+}
+
+.upgrades{
+    grid-area: upgrades;
+    background: rgb(126, 0, 0);
+    border: black 8px solid;
+    border-radius: 30px;
+}
+
+.upgrades h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    grid-area: h1;
+    color: white;
+    text-decoration: black; 
+}
+
+.upgrades a{
+    border-radius: 20%;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.hero h1{
+    display: block;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 400px;
+    height: 80px;
+    background: white;
+    border: black solid 5px;
+    border-top: 0px;
+    margin-top: 0;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p {
+    display: block;
+    width: 70px;
+    height: 30px;
+    background: white;
+    border: solid black 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+aside {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "h1"
+    "upg-1"
+    "upg-2"
+    "upg-3"
+    "upg-4"
+    "upg-5"
+    "upg-6"
+    "upg-7";
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+    padding: 100px;
+    padding-top: 10px;
+}
+
+.upg-1{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-1;
+}
+.upg-1:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-1:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_1_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 143, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-1;
+}
+.upg_1_afford:hover{
+    background: rgb(0, 184, 0);
+}
+.upg_1_afford:active{
+    background: rgb(0, 184, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-2{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-2;
+}
+.upg-2:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-2:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_2_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 143, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-2;
+}
+.upg_2_afford:hover{
+    background: rgb(0, 184, 0);
+}
+.upg_2_afford:active{
+    background: rgb(0, 184, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-3{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-3;
+}
+.upg-3:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-3:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_3_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 143, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-3;
+}
+.upg_3_afford:hover{
+    background: rgb(0, 184, 0);
+}
+.upg_3_afford:active{
+    background: rgb(0, 184, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-4{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-4;
+}
+.upg-4:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-4:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_4_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 143, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-4;
+}
+.upg_4_afford:hover{
+    background: rgb(0, 184, 0);
+}
+.upg_4_afford:active{
+    background: rgb(0, 184, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-5{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background:grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-5;
+}
+.upg-5:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-5:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_5_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 143, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-5;
+}
+.upg_5_afford:hover{
+    background: rgb(0, 184, 0);
+}
+.upg_5_afford:active{
+    background: rgb(0, 184, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-6{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background:grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-6;
+}
+.upg-6:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-6:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_6_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(190, 204, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-6;
+}
+.upg_6_afford:hover{
+    background: rgb(146, 156, 0);
+}
+.upg_6_afford:active{
+    background: rgb(146, 156, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+
+.upg-7{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background:grey;
+    box-shadow: 0 5px #666;
+    margin-top: 0;
+    grid-area: upg-7;
+}
+.upg-7:hover{
+    background: rgb(194, 194, 194);
+}
+.upg-7:active{
+    background: rgb(255, 0, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
+.upg_7_afford{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: rgb(190, 204, 0);
+    box-shadow: 0 5px #666;
+    grid-area: upg-7;
+}
+.upg_7_afford:hover{
+    background: rgb(216, 231, 0);
+}
+.upg_7_afford:active{
+    background: rgb(216, 231, 0);
+    box-shadow: 0 2.5px #666;
+    transform: translateY(4px);
+}
