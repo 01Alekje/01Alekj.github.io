@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Egg-Master</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <main>
+            <h1 class="eggs">Eggs</h1>
+            <h1 id="scorecounter" >0</h1>
+            <button class="clicker" onclick=oncl()><img src="egg.png" alt=""></button>
+        </main>
+        <aside class="chickens">
+            <div class="h1-container">
+                <h1>Chickens</h1>
+            </div>
+            <button onclick=upgrade() id="inc" >Get another chicken for 100:-</button>
+        </aside>
+        <aside class="aside-left">
+            <div class="h1-container2">
+                <h1>Warpmachine</h1>
+            </div>
+            <button onclick=warpmachine() id="warp1">Get a warpmachine for 1750:-</button>
+            <button onclick=warpmachine_upg1() id="warp2">Upgrade warpmachine for 3000:-</button>
+            <button onclick=warpmachine_upg2() id="warp3">Upgrade warpmachine for 7000:-</button>
+            <button onclick=warpmachine_upg3() id="warp4">Upgrade warpmachine for 20 000:-</button>
+        </aside>
+
+    </div>
+    
+</body>
+</html>
