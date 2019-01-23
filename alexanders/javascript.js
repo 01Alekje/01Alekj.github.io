@@ -15,7 +15,7 @@ function upgrade(){
       case 1:
       if (count >= 100){
         increase = 2;
-        count-=100;   document.getElementById("inc").innerHTML = "Get another chicken for 300:-";
+        count -= 100;   document.getElementById("inc").innerHTML = "Get another chicken for 300:-";
       }
       case 2:
       if (count >= 300){
@@ -30,7 +30,17 @@ function upgrade(){
       case 8:
       if (count >= 3000){
         increase = 16;
-        count -= 3000;   document.getElementById("inc").innerHTML = "Maximum amount of chickens!";
+        count -= 3000;   document.getElementById("inc").innerHTML = "Get another chicken for 6000:-";
+      }
+      case 16:
+      if (count >= 6000){
+        increase = 32;
+        count -= 600;   document.getElementById("inc").innerHTML = "Get another chicken for 15 000:-";
+      }
+      case 32:
+      if (count >= 15000){
+        increase = 64;
+        count -= 15000;   document.getElementById("inc").innerHTML = "Maximum amount of chickens!";
       }
 }
 }
