@@ -98,6 +98,7 @@ main {
     grid-area: clicker;
     background: none;
     border: none;
+    margin: auto;
     -webkit-transition-duration: 100ms;
 }
 
@@ -108,10 +109,14 @@ main {
 }
 
 .clicker:active {
-    margin: 5px;
+    margin-top: 15px;
 }
 
-button {
+p {
+    font-size: 70%;
+}
+
+a {
     grid-area: inc;
     background: rgba(238, 179, 52, 0.8);
     border: 3px solid salmon;
@@ -120,13 +125,16 @@ button {
     -webkit-transition-duration: 100ms;
     font-family: monospace;
     font-size: 220%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-size: 200%;
 }
 
-button:hover {
+a:hover {
     background: rgb(241, 167, 54);
 }
 
