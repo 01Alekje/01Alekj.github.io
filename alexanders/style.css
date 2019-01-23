@@ -116,7 +116,7 @@ p {
     font-size: 70%;
 }
 
-a {
+button {
     grid-area: inc;
     background: rgba(238, 179, 52, 0.8);
     border: 3px solid salmon;
@@ -134,7 +134,7 @@ h1 {
     font-size: 200%;
 }
 
-a:hover {
+button:hover {
     background: rgb(241, 167, 54);
 }
 
