@@ -40,7 +40,12 @@ function upgrade(){
       case 32:
       if (count >= 15000){
         increase = 64;
-        count -= 15000;   document.getElementById("inc").innerHTML = "Maximum amount of chickens!";
+        count -= 15000;   document.getElementById("inc").innerHTML = "New chicken for 25 000:-";
+      }
+      case 64:
+      if (count >= 25000){
+        increase = 64;
+        count -= 25000;   document.getElementById("inc").innerHTML = "Maximum amount of chickens!";
       }
 }
 }
@@ -49,21 +54,21 @@ function upgrade(){
 function warpmachine() {
     if (count >= 1750) {
         count -= 1750;
-        autoincreasetime = 2000;
+        autoincreasetime = 1000;
         setInterval(oncl, autoincreasetime); document.getElementById("warp1").innerHTML = "You have a warp-machine!"
     }
 }
 function warpmachine_upg1() {
     if (count >= 3000) {
         count -= 3000;
-        autoincreasetime = 1000;
+        autoincreasetime = 500;
         setInterval(oncl, autoincreasetime); document.getElementById("warp2").innerHTML = "Warpmachine has been upgraded to lvl 2!"
     }
 }
 function warpmachine_upg2() {
     if (count >= 7000) {
         count -= 7000;
-        autoincreasetime = 500;
+        autoincreasetime = 200;
         setInterval(oncl, autoincreasetime); document.getElementById("warp3").innerHTML = "Warpmachine has been upgraded to lvl 3!"
     }
 }
@@ -71,7 +76,7 @@ function warpmachine_upg2() {
 function warpmachine_upg3() {
     if (count >= 20000) {
         count -= 20000;
-        autoincreasetime = 200;
+        autoincreasetime = 50;
         setInterval(oncl, autoincreasetime); document.getElementById("warp4").innerHTML = "Warpmachine is at max lvl!"
     }
 }
