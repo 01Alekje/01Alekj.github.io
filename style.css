@@ -19,6 +19,13 @@ a {
     align-items: center;
     border: 4px solid white;
     border-radius: 30px;
+    -webkit-transition-duration: 500ms;
+}
+
+a:hover {
+    background: white;
+    border: 54px solid white;
+    color: orange;
 }
 
 .alexanders {
